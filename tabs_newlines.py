@@ -1,0 +1,1 @@
+print("Languages:\n\tPython,\n\tC,\n\tJavascript. \nLanguages I know: \n\tPython,\n\tJavascript.")
