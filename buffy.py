@@ -1,7 +1,7 @@
 #working on the first list
 buffy_vampire_slayer = ['buffy', 'willow', 'angel', 'xander', 'cordelia', 'drusilla','spike']
 #copying the list
-humans_vs_vamps = buffy_vampire_slayer[:]
+humans_vs_vamps = buffy_vampire_slayer[:] #if i were to write just humans_vs_vamps = buffy_vampire_slayer it would associate the two lists and i wouldn't get to change the humans_vs_vamps list
 
 #messages i can do using the first list
 message = f'Here are the good people:'
@@ -31,7 +31,7 @@ for humans in humans_vs_vamps[:4]:
 
 for vamps in humans_vs_vamps [-3:]:
 	message = f'\n{vamps.title()} is a vampire,'
-	print(message)
+	print(message)à
 
 
 sire_one = f"{humans_vs_vamps[4].title()} is {humans_vs_vamps[5].title()}'s sire"
