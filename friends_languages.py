@@ -38,5 +38,5 @@ for language in favorite_languages.values():
 
 #let's see what's popular
 print('the following languages have been mentioned:')
-for language in set(favorite_languages.values()):
+for language in set(favorite_languages.values()): #since javascript was mentioned twice it does not repeat the term
 	print(language.title())
