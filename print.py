@@ -1,2 +1,0 @@
-message = input('tell me something: ') #to make this work you can get there to the command prompt in the terminal, writing <C:User> cd C:User\...\python, then <C:User\...\python> python print.py and then your program will open
-print(message)
